@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-calm-bg text-calm-text antialiased;
+}
+
+.card {
+  @apply rounded-2xl border border-calm-border bg-calm-card p-6 shadow-soft;
+}
